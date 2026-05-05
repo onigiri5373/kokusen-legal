@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー — 黒線 -KOKUSEN-</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #050505;
+    --fg: #e8e8e8;
+    --dim: #999;
+    --faint: #666;
+    --accent: #ff1111;
+    --border: #333;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.85;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  .back {
+    color: var(--faint);
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  .back:hover { color: var(--dim); border-color: var(--dim); }
+  h1 {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.4em;
+    color: #fff;
+    margin: 0 0 8px;
+  }
+  .meta {
+    color: var(--faint);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    margin-bottom: 48px;
+  }
+  h2 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  p, li, td { font-size: 14px; color: var(--fg); }
+  ol, ul { padding-left: 1.4em; }
+  ol li, ul li { margin-bottom: 6px; }
+  strong { color: #fff; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 13px;
+  }
+  th, td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    color: var(--dim);
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    width: 30%;
+    background: #0d0d0d;
+  }
+  .note {
+    background: #0d0d0d;
+    border-left: 2px solid var(--accent);
+    padding: 14px 18px;
+    margin: 24px 0;
+    font-size: 13px;
+    color: var(--dim);
+  }
+  footer {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--faint);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
+  a { color: var(--dim); }
+  a:hover { color: var(--accent); }
+  code {
+    background: #0d0d0d;
+    padding: 2px 6px;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 12px;
+    color: var(--dim);
+  }
+</style>
+</head>
+<body>
+<main>
+  <a href="../" class="back">← 戻 る</a>
+
+  <h1>プ ラ イ バ シ ー ポ リ シ ー</h1>
+  <p class="meta">2026年5月 制定 / 黒線 -KOKUSEN-</p>
+
+  <p>ONIGIRIBOYS(以下「当方」といいます)は、iOS モバイルアプリケーション「黒線 -KOKUSEN-」(以下「本サービス」といいます)における利用者の個人情報の取扱いについて、以下のとおりプライバシーポリシー(以下「本ポリシー」といいます)を定めます。本ポリシーは、改正個人情報保護法(2022 年施行)、Apple App Store 審査ガイドライン 5.1、および Apple App プライバシー要件に準拠しています。</p>
+
+  <h2>第 1 条 (取得する情報)</h2>
+  <p>本サービスは以下の情報を取得します。</p>
+  <table>
+    <tr>
+      <th>情報の種類</th>
+      <th>内容</th>
+    </tr>
+    <tr>
+      <td>端末識別子</td>
+      <td>Firebase Anonymous Auth により端末ごとに発行される匿名の識別子(UID)。氏名・電話番号・メールアドレス等の個人情報とは紐付きません。</td>
+    </tr>
+    <tr>
+      <td>プレイヤー名</td>
+      <td>利用者が任意で入力する 12 文字以内の表示名。ランキング表示に使用されます。本名・連絡先等の個人情報の入力を求めるものではありません。</td>
+    </tr>
+    <tr>
+      <td>ゲーム内記録</td>
+      <td>モード(実戦/修練)、ストリーク数、記録日時。</td>
+    </tr>
+    <tr>
+      <td>App Attest 証明</td>
+      <td>Apple のデバイス証明機能による署名トークン。アプリの正当性確認のみに使用し、デバイス固有の永続識別子は取得しません。</td>
+    </tr>
+  </table>
+  <p>本サービスは、氏名・住所・電話番号・メールアドレス・生年月日・位置情報・連絡先情報・写真・カメラ・マイク・健康情報・金融情報を取得しません。</p>
+
+  <h2>第 2 条 (利用目的)</h2>
+  <ol>
+    <li>ランキング機能(リーダーボード)の提供および表示</li>
+    <li>不正なスコア投稿、不適切な表現を含むプレイヤー名等への対応</li>
+    <li>本サービスの維持、改善、トラブル対応</li>
+    <li>利用規約違反の調査および当該利用者への対応</li>
+  </ol>
+
+  <h2>第 3 条 (第三者への提供および外国にある第三者への提供)</h2>
+  <p>本サービスは、利用者から取得した情報を以下の第三者に提供します。改正個人情報保護法第 28 条に基づき、外国にある第三者への提供についてあらかじめ同意を得るものとします。</p>
+  <table>
+    <tr>
+      <th>提供先</th>
+      <td><strong>Google LLC</strong>(米国カリフォルニア州)<br>提供サービス: Firebase(認証・Firestore データベース・App Check)</td>
+    </tr>
+    <tr>
+      <th>所在国</th>
+      <td>米国(United States of America)</td>
+    </tr>
+    <tr>
+      <th>提供される情報</th>
+      <td>第 1 条に定める全ての情報</td>
+    </tr>
+    <tr>
+      <th>データの保存場所</th>
+      <td>データベース本体は <code>asia-northeast1</code>(東京リージョン)に保存されますが、認証処理は米国の Google LLC を経由します。</td>
+    </tr>
+    <tr>
+      <th>米国の個人情報保護制度</th>
+      <td>個人情報保護委員会の公表する「<a href="https://www.ppc.go.jp/personalinfo/legal/kaiseihogohou/" target="_blank" rel="noopener">外国における個人情報の保護に関する制度等の調査</a>」をご参照ください。</td>
+    </tr>
+    <tr>
+      <th>講じている安全管理措置</th>
+      <td>Google Cloud の標準契約条項(Standard Contractual Clauses)に基づく契約を締結しています。送信は TLS 1.2 以上で暗号化されます。Firestore Security Rules により、認証されたユーザーのみが書き込み可能です。</td>
+    </tr>
+  </table>
+  <div class="note">
+    本サービスを利用すると、上記の第三者提供および外国(米国)への移転に同意したものとみなされます。同意されない場合は本サービスのご利用をお控えください。
+  </div>
+
+  <h2>第 4 条 (データの保存期間)</h2>
+  <p>取得した情報は、本サービスの提供に必要な期間保存します。利用者が後述「第 6 条 開示・訂正・削除のご請求」に基づきデータ削除を行った場合、当該データは速やかに削除されます。</p>
+
+  <h2>第 5 条 (Cookie・トラッキングについて)</h2>
+  <ol>
+    <li>本サービスはモバイルアプリのため Cookie は使用しません。</li>
+    <li>本サービスは <strong>App Tracking Transparency (ATT) 上のトラッキング</strong>を行いません。Apple の定義する「他社アプリ・他社ウェブサイトとのデータ突合」「広告 ID(IDFA)の取得」「データブローカーとの共有」のいずれも実施していません。</li>
+    <li>Apple 提供の Privacy Manifest(<code>PrivacyInfo.xcprivacy</code>)において <code>NSPrivacyTracking = false</code> を宣言しています。</li>
+  </ol>
+
+  <h2>第 6 条 (開示・訂正・利用停止・削除のご請求)</h2>
+  <p>改正個人情報保護法第 33 条〜第 35 条に基づき、利用者は自己の個人情報について以下の請求を行うことができます。</p>
+
+  <h3 style="font-size:13px; margin-top:24px;">アプリ内からの削除(推奨)</h3>
+  <p>本アプリ内の「<strong>設定 → データを削除する</strong>」より、利用者ご自身でいつでも以下のデータを削除できます。</p>
+  <ul>
+    <li>ランキング上のスコア記録(全モード)</li>
+    <li>プレイヤー名</li>
+    <li>Firebase Anonymous Auth UID(端末識別子)</li>
+    <li>ローカルに保存されたベスト記録、ブロックリスト、規約同意状況</li>
+  </ul>
+  <p>削除されたデータの復元はできません。</p>
+
+  <h3 style="font-size:13px; margin-top:24px;">メールでのお問い合わせ</h3>
+  <p>アプリ内削除がうまくいかない場合や、開示・訂正等のご請求は、下記までご連絡ください。<br>
+  <a href="mailto:k666801@gmail.com">k666801@gmail.com</a></p>
+  <p>本人確認のため、当該データに紐付く端末識別子(UID)をお伝えいただく場合があります。原則として 7 営業日以内に対応いたします。</p>
+
+  <h2>第 7 条 (App Store プライバシー表示について)</h2>
+  <p>App Store の「App プライバシー」表示において、本サービスは以下のデータタイプを「収集する」と申告しています。いずれも「アプリの機能」目的に限定し、トラッキング目的での使用は行いません。</p>
+  <table>
+    <tr><th>ユーザー ID</th><td>利用者と紐付け、トラッキング目的での使用なし、アプリ機能目的のみ</td></tr>
+    <tr><th>その他のユーザーコンテンツ</th><td>プレイヤー名 — 利用者と紐付け、アプリ機能目的のみ</td></tr>
+    <tr><th>ゲームプレイの内容</th><td>ストリーク数・モード — 利用者と紐付け、アプリ機能目的のみ</td></tr>
+    <tr><th>デバイス ID</th><td>App Attest トークン — 利用者と紐付けず、アプリ機能目的のみ</td></tr>
+  </table>
+
+  <h2>第 8 条 (子どものプライバシー)</h2>
+  <p>本サービスは年齢制限「9+」での提供を予定しており、児童(13 歳未満)の個人情報を意図的に取得するものではありません。万一保護者の方が、お子様が個人を特定しうる情報(プレイヤー名等)を投稿していることに気付かれた場合は、第 6 条に基づきご連絡ください。速やかに削除いたします。</p>
+
+  <h2>第 9 条 (安全管理措置)</h2>
+  <ol>
+    <li>送信路: 全ての通信は TLS 1.2 以上で暗号化されます(<code>NSAppTransportSecurity</code> による強制)。</li>
+    <li>認証: Firebase App Check(Apple の App Attest 機能)により、改ざんされていない正規のアプリからのリクエストのみを受け付けます。</li>
+    <li>アクセス制御: Firestore Security Rules により、各利用者は自己のスコア記録のみを編集・削除できます。他者の記録への書き込み・削除はできません。</li>
+    <li>当方は Firebase コンソールへの管理者アクセスを ONIGIRIBOYS のみに限定しています。</li>
+  </ol>
+
+  <h2>第 10 条 (本ポリシーの改定)</h2>
+  <p>当方は、法令変更または本サービス内容の変更に伴い、本ポリシーを改定することがあります。改定後の本ポリシーは、本ページに掲載された時点から効力を生じます。重大な変更がある場合は、アプリ起動時に再同意を求めます。</p>
+
+  <h2>第 11 条 (お問い合わせ窓口)</h2>
+  <p>本ポリシーまたは個人情報の取扱いに関するお問い合わせは、以下までご連絡ください。</p>
+  <p>
+    発行者: <strong>ONIGIRIBOYS</strong><br>
+    連絡先: <a href="mailto:k666801@gmail.com">k666801@gmail.com</a>
+  </p>
+
+  <footer>
+    最終更新: 2026年5月 / © ONIGIRIBOYS<br>
+    関連: <a href="../terms/">利用規約</a>
+  </footer>
+</main>
+</body>
+</html>
