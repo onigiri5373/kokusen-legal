@@ -1,6 +1,6 @@
 # kokusen-legal
 
-[黒線 -KOKUSEN-](https://apps.apple.com/) iOS アプリの利用規約・プライバシーポリシーを公開するためのリポジトリ。
+[白線 -HAKUSEN-](https://apps.apple.com/) iOS アプリの利用規約・プライバシーポリシーを公開するためのリポジトリ。
 
 GitHub Pages 経由で配信され、アプリ内 (`Sources/Util/LegalText.swift`) からリンクされます。
 
